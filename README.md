@@ -1,14 +1,14 @@
 ![Pomorodo App](./src/assets/design/desktop.jpg)
 
-# Pomorodo App ⌚
+<h1 >Pomorodo App ⌚</h1>
 
 <div align="center">
   <h3>
-    <a href="https://pomorodo-app.vercel.app/" color="white">
+    <a href="https://pomorodo-app.vercel.app/" color="white" style="color: #70f3f8">
       Live
     </a>
     <span> | </span>
-    <a href="https://github.com/devllopeadam/pomorodo-app">
+    <a href="https://github.com/devllopeadam/pomorodo-app" style="color: #70f3f8">
       Solution
     </a>
   </h3>
