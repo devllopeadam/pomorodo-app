@@ -1,0 +1,44 @@
+.time-switch {
+  padding: 7px;
+  border-radius: 30px;
+  background-color: var(--color-dark-blue-2);
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  box-shadow: 0 0 2rem -5px #191c36;
+  position: relative;
+  z-index: 50;
+
+  .time {
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14.5px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+
+    p {
+      color: var(--color-light-blue);
+      padding: 15px 35px;
+      opacity: 0.4;
+      transition: 0.3s ease;
+      &:hover {
+        opacity: 1;
+      }
+      @media (max-width: 576px) {
+        padding: 14px 18px;
+        font-size: 13px;
+      }
+    }
+
+    &.active {
+      background-color: var(--active-color);
+
+      p {
+        color: var(--color-dark-blue-2);
+        opacity: 1;
+      }
+    }
+  }
+}
